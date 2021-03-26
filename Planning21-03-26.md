@@ -11,7 +11,7 @@ What are our plans to test mock interviews?
 - Alex ~ mid april
 - Joyce ~ mid may
 - Nikhil ~ mid may
-- Lesahwn 
+- Leshawn 
 
 Interview Questions Seen
 - Question about promises
