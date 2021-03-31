@@ -15,13 +15,14 @@ function escapeRoom(keypads, wordList) {
     if (words.length === idx) return count;
 
     let curWord = words[idx];
+
     idx++;
 
-    if (!curWord.includes(key)) return keypadRes(hash, words, key, count, idx);
+    curWord = new Set(curWord);
 
-    for (let i = 0; i < curWord.length; i++) {
-      let letter = curWord[i];
+    if (!curWord.has(key)) return keypadRes(hash, words, key, count, idx);
 
+    for (letter of curWord) {
       if (!hash[letter]) return keypadRes(hash, words, key, count, idx);
     }
     count++;
