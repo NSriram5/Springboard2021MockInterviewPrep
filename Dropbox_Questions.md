@@ -10,7 +10,7 @@ What you know: - The correct combination will be a valid English word; - The wor
 
 Four our purposes, we'll express each set of keypad letters as a string of length 7 where the first letter is the 'key' letter.
 
-Constraints: - BOth the wordlist and the keypad letters will be supplied in all capital letters; - All words in the wordlist will be of length 5 or greater; - Every sequence of keypad letters will be of exactly length 7
+Constraints: - Both the wordlist and the keypad letters will be supplied in all capital letters; - All words in the wordlist will be of length 5 or greater; - Every sequence of keypad letters will be of exactly length 7
 
 Example:
 
